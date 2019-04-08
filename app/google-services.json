@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "719599694252",
+    "firebase_url": "https://gebeta-application.firebaseio.com",
+    "project_id": "gebeta-application",
+    "storage_bucket": "gebeta-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719599694252:android:20a43a1c1fc2a209",
+        "android_client_info": {
+          "package_name": "e.fish.gebetaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719599694252-2p01l5bturvf3kahoumqcjg9uhbnsoge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.fish.gebetaapplication",
+            "certificate_hash": "58753b2b2317266e10db82fc213c929143a6dc31"
+          }
+        },
+        {
+          "client_id": "719599694252-0j2a7slqonr6gno32q00688celp1s3k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGEM-c1zeb8UUs-c9A3yHD0_ObRGXSg-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719599694252-0j2a7slqonr6gno32q00688celp1s3k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

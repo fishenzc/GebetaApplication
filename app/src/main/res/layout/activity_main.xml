@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true">
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUP_id"
+            android:text="sign up"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_margin="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            app:cornerRadius="4dp"
+            android:layout_marginTop="24dp"
+            style="@style/signUpButton"
+            android:outlineSpotShadowColor="@color/colorPrimaryDark"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignIn_id"
+            android:text="sign in"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_margin="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            app:cornerRadius="4dp"
+            android:layout_marginTop="24dp"
+            style="@style/signInButton"
+            android:outlineSpotShadowColor="@color/colorPrimaryDark"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
