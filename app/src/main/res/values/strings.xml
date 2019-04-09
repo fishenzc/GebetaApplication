@@ -13,5 +13,7 @@
     <string name="log_out">Log Out</string>
     <string name="food_name">Food Name</string>
     <string name="file">file</string>
+    <string name="food_name_toolbar">Food Name</string>
+    <string name="food_name_detail">Food Name</string>
 
 </resources>

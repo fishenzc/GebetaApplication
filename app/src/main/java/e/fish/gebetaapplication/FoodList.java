@@ -68,15 +68,18 @@ public class FoodList extends AppCompatActivity {
                 viewHolder.food_Name.setText(model.getName());
                 Picasso.with(getBaseContext()).load(model.getImage()).into(viewHolder.food_image);
 
-                final Food clickItem = model;
+                //final Food clickItem = model;
 
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
 
-                            Toast.makeText(FoodList.this, clickItem.getName(), Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(FoodList.this, clickItem.getName(), Toast.LENGTH_SHORT).show();
 
-                                                //get Category id and send to new Activity
+                                                //get food id and send to new Activity
+                        Intent foodDetail = new Intent(FoodList.this, FoodDetail.class);
+                        foodDetail.putExtra("FoodId", adapter.getRef(position).getKey()); //send food id to new activity
+                        startActivity(foodDetail);
                     }
 
                 });
